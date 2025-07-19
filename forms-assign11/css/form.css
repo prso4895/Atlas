@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+#formcol1 li {
+	list-style:none;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+#formcol1 input.reqfield {
+	background:#FF9;
+}
+
+label {
+	margin-right: .3em;
+	width: 6.3em; /* I made this deliberately wide – come up with your own optimal width */
+	display: inline-block; /* width will not work for “inline” elements such as “label”. Therefore we need to set it to “inline-block” */
+	/*text-align: right;*/
+}
+
+#multchoice span {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 0.4em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label,
+input:active + label, label[for]:focus, label[for]:active {
+	color: #FFF !important;
+	background-color: #BB3D2F !important;
+}
+
+
+
+/* end of form css */
+	
